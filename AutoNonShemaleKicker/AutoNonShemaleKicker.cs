@@ -13,7 +13,7 @@ namespace AutoNonShemaleKicker
         private List<string> subscribedCharacters = new List<string>();
         private bool isUsingDefaultStatus = false;
 
-        public AutoNonShemaleKicker(string channel) : base(nameof(AutoNonShemaleKicker), "1.0.0", channel)
+        public AutoNonShemaleKicker(string channel) : base(channel)
         {
             _kickMonitor = new Timer(PeriodicallyCheckThings, null, 1000, 5000);
             base.Run();
