@@ -6,8 +6,9 @@ namespace AutoNonShemaleKicker
     {
         static void Main(string[] args)
         {
-            var channelToWatch = "adh-ae6c36cf75c40ec6a52a";
+            var channelToWatch = "adh-3d64bb9568c39a2818bc";
             var plugin = new AutoNonShemaleKicker(channelToWatch);
+            plugin.Run();
         }
     }
 }

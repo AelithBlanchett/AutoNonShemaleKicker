@@ -16,7 +16,6 @@ namespace AutoNonShemaleKicker
         public AutoNonShemaleKicker(string channel) : base(channel)
         {
             _kickMonitor = new Timer(PeriodicallyCheckThings, null, 1000, 5000);
-            base.Run();
         }
 
         private void PeriodicallyCheckThings(object state)
